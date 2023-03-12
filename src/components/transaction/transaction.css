@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   width: 600px;
+  border-spacing: 0px;
 }
 .transaction-history thead {
   border-bottom: 1px solid black;
@@ -17,7 +18,11 @@ td {
   text-align: center;
   width: 200px;
 }
-
-tr:nth-first-chield:hover {
+.table-items:nth-last-child(even) {
+  outline: 1px solid black;
+  background-color: grey;
+}
+.table-items:hover {
+  cursor: pointer;
   background-color: yellow;
 }
