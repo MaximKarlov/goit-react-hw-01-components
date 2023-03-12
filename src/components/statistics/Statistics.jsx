@@ -5,13 +5,13 @@ import '../statistics/statistics.css'
 
 const InfoList = ({ Array }) => {
   return (
-        <section class="statistics">
-      <h2 class="title">Upload stats</h2>
-    <ul class="stat-list">
+        <section className="statistics">
+      <h2 className="title">Upload stats</h2>
+    <ul className="stat-list">
       {Array.map(elem => (
-        <li class="item" id={elem.id} style={{ background: getRandomHexColor()}}>
-                <span class="label">{elem.label}</span>
-                <span class="percentage">{elem.percentage}%</span>
+        <li className="item" key={elem.id} style={{ background: getRandomHexColor()}}>
+                <span className="label">{elem.label}</span>
+                <span className="percentage">{elem.percentage}%</span>
             </li>
       ))}
       </ul> 
