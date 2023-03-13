@@ -1,28 +1,28 @@
-.friend-list {
+.list {
   display: flex;
   flex-direction: column;
   padding-top: 40px;
   align-items: center;
 }
-.friend-list__item {
+.list__item {
   display: flex;
   border: 2px solid black;
   align-items: center;
   padding: 20px 0;
   margin: 5px 0;
-  width: 300px;
+  width: 400px;
 }
 
-.friend-list__name {
+.list__name {
   /* font-weight: bold; */
   font-size: 30px;
   margin: auto;
 }
 
-.friend-list__status {
+.list__status {
   width: 20px;
   height: 20px;
-  margin: 0 20px;
+  margin: 0 40px;
   border-radius: 50%;
   border: 1px solid black;
 }
