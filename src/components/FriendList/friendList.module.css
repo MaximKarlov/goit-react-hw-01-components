@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+}
+.list__item {
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
+  padding: 20px 0;
+  margin: 5px 0;
+  width: 400px;
+}
+
+.list__name {
+  /* font-weight: bold; */
+  font-size: 30px;
+  margin: auto;
+}
+
+.list__status {
+  width: 20px;
+  height: 20px;
+  margin: 0 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
