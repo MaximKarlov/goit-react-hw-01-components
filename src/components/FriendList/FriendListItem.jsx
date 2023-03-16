@@ -1,8 +1,8 @@
 import friendsListCss from '../FriendList/friendList.module.css';
 
-export const FriendListItem = ({ avatar, name, isOnline, id }) => {
+export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <li className={friendsListCss.list__item} key={id}>
+    <li className={friendsListCss.list__item}>
       <span
         className={
           isOnline
